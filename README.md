@@ -1,93 +1,92 @@
 <div align="center">
-  <img src="./assets/ray-cover.svg" alt="Ray — blockchain engineer focused on protocols, security, and useful products" width="100%" />
+  <img src="./assets/ray-cover.svg" alt="Ray · Smart Contract Developer" width="100%" />
 
-  <p><strong>Smart Contracts · Cross-chain Systems · Security-minded Engineering</strong></p>
-
+  <h1>Hi, I'm Ray (睿).</h1>
+  <p><strong>Smart Contract Developer</strong></p>
+  <p>Solidity / EVM · Solana · Sui &nbsp;|&nbsp; Protocol Engineering · Security</p>
   <p>
-    <a href="#selected-work">Selected work</a> ·
-    <a href="#engineering-background">Background</a> ·
-    <a href="#how-i-work">Approach</a> ·
-    <a href="#opportunities">Opportunities</a>
+    <a href="#selected-work">Selected Work</a> ·
+    <a href="#background">Background</a> ·
+    <a href="#engineering-approach">Approach</a> ·
+    <a href="#connect">Connect</a>
   </p>
 </div>
 
-## Hi, I'm Ray (睿).
+I build **smart contracts and cross-chain systems** with an emphasis on clear trust boundaries, reproducible tests, and reliable state transitions. I also enjoy taking products from an idea to something people can actually use.
 
-I build blockchain systems that need to be **reliable in production**, and products that need to be **useful beyond a demo**.
+Previously a Blockchain Engineer at **Orderly Network**, working on EVM contracts and Solana / Sui integrations. MSc in Computer Science from **South China University of Technology** (2026), with graduate research in cryptography and blockchain.
 
-I'm a blockchain engineer with experience in DeFi smart contracts and cross-chain integrations across EVM, Solana, and Sui. I care about clear trust boundaries, reproducible tests, and knowing *why* a design holds—not just whether it compiles.
+---
 
-## Selected work
+## Selected Work
 
-### Products I build
+### Smart contracts & protocols
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/3956ray/MealForward">MealForward · 留膳</a></strong><br/>
-      <em>Web3 · Social impact · In development</em>
-      <p>A prepaid-meal platform: donors fund meals, recipients claim vouchers, and merchants redeem them through an escrow-backed workflow. Developed through local and testnet prototypes; not a production payment service.</p>
-      <code>Solidity</code> <code>Monad</code> <code>TypeScript</code>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/3956ray/ButtonPost">ButtonPost</a></strong> · <a href="https://buttonpost.app">Live site</a><br/>
-      <em>Web product · Open source</em>
-      <p>Write once, publish to multiple platforms. A web-first publishing tool with per-platform results, connection management, and deliberate retry behavior.</p>
-      <code>TypeScript</code> <code>Next.js</code> <code>Supabase</code>
-    </td>
-  </tr>
-</table>
+**[MealForward · 留膳](https://github.com/3956ray/MealForward)** · *Onchain escrow / social impact*
 
-### Protocols & research
+Prepaid meals funded by donors, claimed through vouchers, and redeemed by merchants. A smart-contract-backed workflow with separated roles and settlement controls. **In development and testnet testing; not a live payment service.**
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/3956ray/VC-DVN">VC-DVN</a></strong><br/>
-      <em>Master's research · Independent PoC</em>
-      <p>Explores aggregated verification-state compression for a LayerZero V2 DVN design targeting Solana. An academic prototype—not an official LayerZero implementation or a production protocol.</p>
-      <code>Rust</code> <code>Solana</code> <code>Anchor</code>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/3956ray/solana-amm">Solana AMM</a></strong><br/>
-      <em>DeFi protocol engineering</em>
-      <p>An Anchor-based constant-product AMM with liquidity provision, token swaps, a TWAP oracle, and protocol-fee accounting.</p>
-      <code>Rust</code> <code>Anchor</code> <code>DeFi</code>
-    </td>
-  </tr>
-</table>
+<code>Solidity</code> · <code>Monad Testnet</code> · <code>TypeScript</code>
 
-**More things I've built:** [FrisbeeDAO](https://github.com/3956ray/FrisbeeDAO) (athlete tokens) · [Myself](https://github.com/3956ray/Myself) (agent-native personal OS) · [Agent delivery workflow](https://github.com/3956ray/Leader) ([ProductManager](https://github.com/3956ray/ProductManager) / [Developer](https://github.com/3956ray/Developer)).
+**[VC-DVN](https://github.com/3956ray/VC-DVN)** · *Cross-chain verification / MSc research*
 
-## Engineering background
+Independent research prototype exploring aggregated verification-state compression for LayerZero V2 DVNs targeting Solana. Academic PoC, not a production or official LayerZero implementation.
 
-**Blockchain Engineer · Orderly Network** | Oct 2025 – Sep 2026
+<code>Rust</code> · <code>Solana</code> · <code>Anchor</code>
 
-Worked on EVM smart contracts and cross-chain integrations involving Solana and Sui, including contract testing, integration flows, and protocol reliability.
+**[Solana AMM](https://github.com/3956ray/solana-amm)** · *DeFi protocol*
 
-**MSc, Computer Science · South China University of Technology** | 2026
+Constant-product AMM with liquidity operations, token swaps, a TWAP oracle, and protocol-fee accounting.
 
-Graduate research in cryptography and blockchain, with a focus on cross-chain verification systems.
+<code>Rust</code> · <code>Anchor</code> · <code>DeFi</code>
 
-## How I work
+### Products & tools
 
-- **Design for failure:** Model permissions, state transitions, failure paths, and recovery before relying on happy-path tests.
-- **Verify the implementation:** Use tests, invariants, and concrete evidence to challenge assumptions about contract safety.
-- **Ship end to end:** Move between contracts, integrations, backends, and user-facing flows to make systems actually usable.
-- **Use agents carefully:** AI helps with research, implementation, and review; engineering judgment and verification remain human responsibilities.
+**[ButtonPost](https://github.com/3956ray/ButtonPost)** · [buttonpost.app](https://buttonpost.app) · *Open-source product*
 
-## Toolkit
+Write once, publish across multiple platforms. A web-first tool with connected accounts, per-platform publication results, and controlled retries.
 
-**Onchain:** <code>Solidity</code> · <code>Foundry</code> · <code>EVM</code> · <code>Solana / Anchor</code> · <code>Sui</code> · <code>LayerZero</code>
+<code>TypeScript</code> · <code>Next.js</code> · <code>Supabase</code>
 
-**Engineering:** <code>Rust</code> · <code>Go</code> · <code>TypeScript</code> · <code>Python</code> · <code>Node.js</code> · <code>PostgreSQL</code> · <code>Docker</code>
+**[Myself](https://github.com/3956ray/Myself)** · *Agent-native personal OS*
 
-**Currently exploring:** smart-contract auditing, trustworthy AI-agent workflows, and onchain agent payments / identity (<code>x402</code>, <code>ERC-8004</code>).
+An evidence-first framework for personal knowledge, decisions, and experiments, built around local Markdown and human-controlled AI workflows.
 
-## Opportunities
+<code>Python</code> · <code>Obsidian</code> · <code>AI agents</code>
 
-I'm interested in remote or async-friendly work on **smart contracts, blockchain infrastructure, and security-conscious developer products**.
+Other projects: [FrisbeeDAO](https://github.com/3956ray/FrisbeeDAO) · [Agent delivery workflow](https://github.com/3956ray/Leader) ([ProductManager](https://github.com/3956ray/ProductManager) / [Developer](https://github.com/3956ray/Developer)) · [unioinpayIntl](https://github.com/3956ray/unioinpayIntl)
 
-You can explore my work here on [GitHub](https://github.com/3956ray). If we share an engineering problem, I'd be glad to exchange ideas.
+---
 
-<!-- Add a public email, portfolio or LinkedIn link here when ready. -->
+## Background
+
+**Orderly Network** — Blockchain Engineer · Oct 2025 – Sep 2026
+
+EVM smart contracts, cross-chain integrations, and engineering work involving Solana and Sui, with attention to contract testing and failure handling.
+
+**South China University of Technology** — MSc, Computer Science · 2026
+
+Research interests: cryptography, blockchain systems, and cross-chain verification protocols.
+
+## Engineering Approach
+
+- **Security starts with the threat model.** Define trust boundaries, permissions, and adversarial paths before relying on a happy-path demonstration.
+- **Tests are evidence, not decoration.** Focus on state transitions, failure modes, edge cases, and reproducible verification.
+- **Shipping means the whole system.** Contracts, integrations, backends, and usable interfaces all need to agree.
+- **AI accelerates work; it doesn't validate it.** Agent-produced code and analysis still require independent review.
+
+## Toolbox
+
+**Smart contracts & chains:** Solidity · Foundry · EVM · Solana / Anchor · Sui · LayerZero
+
+**Languages & infrastructure:** Rust · Go · TypeScript · Python · PostgreSQL · Docker
+
+**Exploring:** smart-contract auditing, AI-agent engineering, onchain payments (x402), and agent identity (ERC-8004).
+
+## Connect
+
+I'm interested in **remote / async-friendly opportunities** involving smart contracts, protocol infrastructure, and security-conscious engineering.
+
+**GitHub:** [@3956ray](https://github.com/3956ray) · **Product:** [ButtonPost](https://buttonpost.app)
+
+<!-- Add a public contact email or professional social link only when ready. -->
