@@ -60,12 +60,19 @@ Also: [unioinpayIntl](https://github.com/3956ray/unioinpayIntl) (ERC-3009 paymen
 
 ## Toolkit
 
-| Category | Technologies |
-| :--- | :--- |
-| **Smart Contracts** | Solidity · Foundry |
-| **Blockchains** | EVM · Solana (Anchor) · Sui |
-| **Programming** | Rust · Go · TypeScript · Python |
-| **Infrastructure** | Docker · PostgreSQL |
+<p align="left">  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg" alt="solidity" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>  
+</p>
+
+Solidity · Foundry · Go · Python · TypeScript · Rust · Docker · Git · Obsidian · LLM agent workflows
+
 ---
 
 ## Find me
