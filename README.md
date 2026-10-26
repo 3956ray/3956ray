@@ -60,9 +60,12 @@ Also: [unioinpayIntl](https://github.com/3956ray/unioinpayIntl) (ERC-3009 paymen
 
 ## Toolkit
 
-**Smart contracts:** Solidity · Foundry · EVM · Solana / Anchor · Sui
-
-**Engineering:** Rust · Go · TypeScript · Python · Docker · PostgreSQL
+| Category | Technologies |
+| :--- | :--- |
+| **Smart Contracts** | Solidity · Foundry |
+| **Blockchains** | EVM · Solana (Anchor) · Sui |
+| **Programming** | Rust · Go · TypeScript · Python |
+| **Infrastructure** | Docker · PostgreSQL |
 ---
 
 ## Find me
