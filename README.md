@@ -1,92 +1,83 @@
-<div align="center">
-  <img src="./assets/ray-cover.svg" alt="Ray · Smart Contract Developer" width="100%" />
+<div align="left">
 
-  <h1>Hi, I'm Ray (睿).</h1>
-  <p><strong>Smart Contract Developer</strong></p>
-  <p>Solidity / EVM · Solana · Sui &nbsp;|&nbsp; Protocol Engineering · Security</p>
-  <p>
-    <a href="#selected-work">Selected Work</a> ·
-    <a href="#background">Background</a> ·
-    <a href="#engineering-approach">Approach</a> ·
-    <a href="#connect">Connect</a>
-  </p>
+# Hi, I'm Ray (睿)
+
+### Smart Contract Developer · Protocol Engineering
+
+**Solidity · EVM / Solana / Sui · AI-native engineering**
+
 </div>
 
-I build **smart contracts and cross-chain systems** with an emphasis on clear trust boundaries, reproducible tests, and reliable state transitions. I also enjoy taking products from an idea to something people can actually use.
+---
 
-Previously a Blockchain Engineer at **Orderly Network**, working on EVM contracts and Solana / Sui integrations. MSc in Computer Science from **South China University of Technology** (2026), with graduate research in cryptography and blockchain.
+I build contracts and protocol modules — and I care as much about *why* a design holds as whether it compiles.
+
+MSc in Computer Science (South China University of Technology, 2026), with research in cryptography and blockchain. Previously a Blockchain Engineer at Orderly Network, working on EVM smart contracts and cross-chain integrations involving Solana and Sui. I use LLM agents in my workflow — as collaborators, never as the final authority.
 
 ---
 
-## Selected Work
+## What I work on
 
-### Smart contracts & protocols
-
-**[MealForward · 留膳](https://github.com/3956ray/MealForward)** · *Onchain escrow / social impact*
-
-Prepaid meals funded by donors, claimed through vouchers, and redeemed by merchants. A smart-contract-backed workflow with separated roles and settlement controls. **In development and testnet testing; not a live payment service.**
-
-<code>Solidity</code> · <code>Monad Testnet</code> · <code>TypeScript</code>
-
-**[VC-DVN](https://github.com/3956ray/VC-DVN)** · *Cross-chain verification / MSc research*
-
-Independent research prototype exploring aggregated verification-state compression for LayerZero V2 DVNs targeting Solana. Academic PoC, not a production or official LayerZero implementation.
-
-<code>Rust</code> · <code>Solana</code> · <code>Anchor</code>
-
-**[Solana AMM](https://github.com/3956ray/solana-amm)** · *DeFi protocol*
-
-Constant-product AMM with liquidity operations, token swaps, a TWAP oracle, and protocol-fee accounting.
-
-<code>Rust</code> · <code>Anchor</code> · <code>DeFi</code>
-
-### Products & tools
-
-**[ButtonPost](https://github.com/3956ray/ButtonPost)** · [buttonpost.app](https://buttonpost.app) · *Open-source product*
-
-Write once, publish across multiple platforms. A web-first tool with connected accounts, per-platform publication results, and controlled retries.
-
-<code>TypeScript</code> · <code>Next.js</code> · <code>Supabase</code>
-
-**[Myself](https://github.com/3956ray/Myself)** · *Agent-native personal OS*
-
-An evidence-first framework for personal knowledge, decisions, and experiments, built around local Markdown and human-controlled AI workflows.
-
-<code>Python</code> · <code>Obsidian</code> · <code>AI agents</code>
-
-Other projects: [FrisbeeDAO](https://github.com/3956ray/FrisbeeDAO) · [Agent delivery workflow](https://github.com/3956ray/Leader) ([ProductManager](https://github.com/3956ray/ProductManager) / [Developer](https://github.com/3956ray/Developer)) · [unioinpayIntl](https://github.com/3956ray/unioinpayIntl)
+- **Smart contracts & protocol engineering** — Solidity + Foundry, contract design, test coverage, security review, and being able to explain state changes, permissions and failure paths line by line.
+- **Multi-chain** — production exposure to Solana and Sui alongside EVM. Comfortable picking up an unfamiliar runtime and reading it before trusting it.
+- **AI-native engineering** — research → PRD → implementation → review as an agent-assisted pipeline. I treat model output as a draft that must be verified: *"the AI said it's safe" is not a security argument.*
 
 ---
 
-## Background
+## Currently
 
-**Orderly Network** — Blockchain Engineer · Oct 2025 – Sep 2026
+| Focus | What I'm doing |
+| --- | --- |
+| 🏗 **Building** | [MealForward · 留膳](https://github.com/3956ray/MealForward) (testnet meal-voucher escrow) and [ButtonPost](https://github.com/3956ray/ButtonPost) ([live site](https://buttonpost.app)). |
+| 🔍 **Exploring** | Smart-contract auditing, trustworthy agent workflows, and onchain agent payments / identity. |
+| 🤖 **Agent workflow** | [Leader](https://github.com/3956ray/Leader) · [ProductManager](https://github.com/3956ray/ProductManager) · [Developer](https://github.com/3956ray/Developer) — research, build, review and handoff. |
 
-EVM smart contracts, cross-chain integrations, and engineering work involving Solana and Sui, with attention to contract testing and failure handling.
+---
 
-**South China University of Technology** — MSc, Computer Science · 2026
+## Selected work
 
-Research interests: cryptography, blockchain systems, and cross-chain verification protocols.
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**MealForward · 留膳**](https://github.com/3956ray/MealForward) | Prepaid-meal vouchers, onchain escrow and merchant settlement. **Testnet / in development.** | Solidity · Monad |
+| [**VC-DVN**](https://github.com/3956ray/VC-DVN) | Independent MSc research PoC for LayerZero V2 DVN verification-state compression on Solana. | Rust · Anchor |
+| [**Solana AMM**](https://github.com/3956ray/solana-amm) | Constant-product AMM with liquidity management and a TWAP oracle. | Rust · Anchor |
+| [**ButtonPost**](https://github.com/3956ray/ButtonPost) | [Live](https://buttonpost.app) multi-platform publishing tool with independent results and retries. | TypeScript · Next.js |
+| [**FrisbeeDAO**](https://github.com/3956ray/FrisbeeDAO) | Athlete-token issuance and trading platform. | Solidity · TypeScript |
+| [**Myself**](https://github.com/3956ray/Myself) | Agent-native personal OS built around local knowledge and evidence. | Python · Obsidian |
+| [**Leader**](https://github.com/3956ray/Leader) · [**PM**](https://github.com/3956ray/ProductManager) · [**Developer**](https://github.com/3956ray/Developer) | Multi-agent pipeline for product research, implementation and verification. | Python · Agents |
 
-## Engineering Approach
+Also: [unioinpayIntl](https://github.com/3956ray/unioinpayIntl) (ERC-3009 payments and escrow).
 
-- **Security starts with the threat model.** Define trust boundaries, permissions, and adversarial paths before relying on a happy-path demonstration.
-- **Tests are evidence, not decoration.** Focus on state transitions, failure modes, edge cases, and reproducible verification.
-- **Shipping means the whole system.** Contracts, integrations, backends, and usable interfaces all need to agree.
-- **AI accelerates work; it doesn't validate it.** Agent-produced code and analysis still require independent review.
+---
 
-## Toolbox
+## What I've been thinking about lately
 
-**Smart contracts & chains:** Solidity · Foundry · EVM · Solana / Anchor · Sui · LayerZero
+- **AI-assisted contract work has a verification gap.** Generating code is cheap now; proving it is safe is not. I'm building a habit of writing down what I tested, what I didn't, and which assumptions could break.
+- **Context beats prompting.** An agent that doesn't know a person's constraints produces confident, generic advice. Most of my current work is about structuring context so the output is actually usable.
+- **Small experiments over big plans.** Cheap, reversible, with an explicit kill condition — and result-unknown recorded as a real result, not a failure to be spun.
 
-**Languages & infrastructure:** Rust · Go · TypeScript · Python · PostgreSQL · Docker
+---
 
-**Exploring:** smart-contract auditing, AI-agent engineering, onchain payments (x402), and agent identity (ERC-8004).
+## Toolkit
 
-## Connect
+<p align="left">  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg" alt="solidity" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>  
+</p>
 
-I'm interested in **remote / async-friendly opportunities** involving smart contracts, protocol infrastructure, and security-conscious engineering.
+Solidity · Foundry · Go · Python · TypeScript · Rust · Docker · Git · Obsidian · LLM agent workflows
 
-**GitHub:** [@3956ray](https://github.com/3956ray) · **Product:** [ButtonPost](https://buttonpost.app)
+---
 
-<!-- Add a public contact email or professional social link only when ready. -->
+## Find me
+
+- GitHub: [@3956ray](https://github.com/3956ray)
+- Built by me: [ButtonPost](https://buttonpost.app)
+
+Open to remote / async-friendly engineering opportunities. Happy to talk about contract design, cross-chain architecture, security review, or building with AI agents.
