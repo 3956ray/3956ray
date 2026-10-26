@@ -2,7 +2,7 @@
 
 # Hi, I'm Ray (睿)
 
-### Smart Contract & Protocol Engineer
+### Smart Contract Developer · Protocol Engineering
 
 **Solidity · EVM / Solana / Sui · AI-native engineering**
 
@@ -12,7 +12,7 @@
 
 I build contracts and protocol modules — and I care as much about *why* a design holds as whether it compiles.
 
-MSc in Computer Science (South China University of Technology, 2026). Originally from Taiwan, China; based in Guangzhou, working remotely. I spent 2026 across production DeFi contract work, security review, and cross-chain maintenance on Solana and Sui, and I now run most of my delivery pipeline with LLM agents in the loop — as drafters, never as the final authority.
+MSc in Computer Science (South China University of Technology, 2026), with research in cryptography and blockchain. Previously a Blockchain Engineer at Orderly Network, working on EVM smart contracts and cross-chain integrations involving Solana and Sui. I use LLM agents in my workflow — as collaborators, never as the final authority.
 
 ---
 
@@ -26,25 +26,27 @@ MSc in Computer Science (South China University of Technology, 2026). Originally
 
 ## Currently
 
-|                                                               |                                                                                                                                                                                                                            |
-| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🏗 **Monad Metropolis hackathon** (solo, 1 Sep – 13 Oct 2026) | Contract track. Building a scoped contract project end to end: design, tests, deployment demo, and my own security pass on top of AI-assisted development.                                                                 |
-| 🧠 **Myself**                                                 | An agent-native personal OS: evidence, knowledge and small experiments instead of a generated five-year plan. Personal data stays in the user's own Vault; the repo holds method, agent protocol and templates.            |
-| 🤖 **Multi-agent delivery workflow**                          | A three-repo setup — `ProductManager` (research + PRD), `Developer` (implementation workspaces), `Leader` (orchestration, handoff, verification) — used to ship real products with agents rather than just chat with them. |
-| 🔍 **Reading / writing about**                                | Where AI-assisted contract development genuinely helps, where it silently doesn't, and what counts as evidence.                                                                                                            |
+| Focus | What I'm doing |
+| --- | --- |
+| 🏗 **Building** | [MealForward · 留膳](https://github.com/3956ray/MealForward) (testnet meal-voucher escrow) and [ButtonPost](https://github.com/3956ray/ButtonPost) ([live site](https://buttonpost.app)). |
+| 🔍 **Exploring** | Smart-contract auditing, trustworthy agent workflows, and onchain agent payments / identity. |
+| 🤖 **Agent workflow** | [Leader](https://github.com/3956ray/Leader) · [ProductManager](https://github.com/3956ray/ProductManager) · [Developer](https://github.com/3956ray/Developer) — research, build, review and handoff. |
 
 ---
 
 ## Selected work
 
-| Project                                                                                                                                                       | What it is                                                                                                                                                                        | Stack                 | Period    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | --------- |
-| [Myself](https://github.com/3956ray/Myself)                                                                                                                   | Agent-native personal OS. Evidence-first decision framework, agent protocol, templates and tooling; Obsidian as the editing surface.                                              | Python                | 2026      |
-| [Leader](https://github.com/3956ray/Leader) · [ProductManager](https://github.com/3956ray/ProductManager) · [Developer](https://github.com/3956ray/Developer) | Multi-agent delivery system: research and PRD, implementation workspaces, orchestration and handoff with integrity checks.                                                        | Python / agent config | 2026      |
-| [VC-DVN](https://github.com/3956ray/VC-DVN)                                                                                                                   | MSc thesis prototype: aggregated verification state compression protocol for a LayerZero V2 DVN, targeting Solana. Independent academic research, not an official implementation. | Rust                  | 2025–2026 |
-| [solana-amm](https://github.com/3956ray/solana-amm)                                                                                                           | Constant-product AMM on Solana (`x · y = k`) with a TWAP price oracle.                                                                                                            | TypeScript / Anchor   | 2026      |
-| [FrisbeeDAO](https://github.com/3956ray/FrisbeeDAO)                                                                                                           | Decentralized athlete-token platform — issuance and trading of personal tokens for frisbee athletes.                                                                              | TypeScript / Solidity | 2025      |
-| [unioinpayIntl](https://github.com/3956ray/unioinpayIntl)                                                                                                     | Decentralized payment system on ERC-3009: CNY-token payment flow plus escrow contracts.                                                                                           | TypeScript / Solidity | 2025      |
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**MealForward · 留膳**](https://github.com/3956ray/MealForward) | Prepaid-meal vouchers, onchain escrow and merchant settlement. **Testnet / in development.** | Solidity · Monad |
+| [**VC-DVN**](https://github.com/3956ray/VC-DVN) | Independent MSc research PoC for LayerZero V2 DVN verification-state compression on Solana. | Rust · Anchor |
+| [**Solana AMM**](https://github.com/3956ray/solana-amm) | Constant-product AMM with liquidity management and a TWAP oracle. | Rust · Anchor |
+| [**ButtonPost**](https://github.com/3956ray/ButtonPost) | [Live](https://buttonpost.app) multi-platform publishing tool with independent results and retries. | TypeScript · Next.js |
+| [**FrisbeeDAO**](https://github.com/3956ray/FrisbeeDAO) | Athlete-token issuance and trading platform. | Solidity · TypeScript |
+| [**Myself**](https://github.com/3956ray/Myself) | Agent-native personal OS built around local knowledge and evidence. | Python · Obsidian |
+| [**Leader**](https://github.com/3956ray/Leader) · [**PM**](https://github.com/3956ray/ProductManager) · [**Developer**](https://github.com/3956ray/Developer) | Multi-agent pipeline for product research, implementation and verification. | Python · Agents |
+
+Also: [unioinpayIntl](https://github.com/3956ray/unioinpayIntl) (ERC-3009 payments and escrow).
 
 ---
 
@@ -76,7 +78,6 @@ Solidity · Foundry · Go · Python · TypeScript · Rust · Docker · Git · Ob
 ## Find me
 
 - GitHub: [@3956ray](https://github.com/3956ray)
-- Email:
-- X / Twitter:
+- Built by me: [ButtonPost](https://buttonpost.app)
 
-Happy to talk about contract design, cross-chain architecture, audit workflows, or running agents as a real part of an engineering process.
+Open to remote / async-friendly engineering opportunities. Happy to talk about contract design, cross-chain architecture, security review, or building with AI agents.
